@@ -63,16 +63,8 @@ Now, you will exchange the temporary code for a permanent `refresh_token`. This 
 
 Create a `.env` file in the root directory of the project to store your secrets. This file should never be committed to Git.
 
-1.  Create a file named `.env`.
-2.  Add your credentials to the file in the following format:
+1.  Create a file named `.env` to add ur credentials or you can directly add into the getLikedSongs.py file itself.
 
-    ```
-    SPOTIFY_CLIENT_ID=your_client_id
-    SPOTIFY_CLIENT_SECRET=your_client_secret
-    SPOTIFY_REFRESH_TOKEN=your_refresh_token
-    ```
-
----
 
 ### Step 5: Run the Project
 
@@ -88,5 +80,4 @@ Now you are ready to run the project.
     python downloader.py
     ```
 
-The script will now use the credentials in your `.env` file to authenticate with the Spotify API and donwnload all your liked songs.
 
